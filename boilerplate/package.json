@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "umi dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "umi build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "umi": "4.0.0-rc.20"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
