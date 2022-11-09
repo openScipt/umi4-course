@@ -1,3 +1,3 @@
 
 
-export default () => <div>Index Page</div>
+export default () => <div>Hello Work</div>
