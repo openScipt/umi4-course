@@ -1,5 +1,5 @@
 import { history, useNavigate, createSearchParams } from "umi";
-
+import React from "react";
 
 
 export default function () {
@@ -14,7 +14,7 @@ export default function () {
       <button onClick={() => navigate(-1)}>go back by navigate!</button>
       <button onClick={() => navigate('/')}>go to index by navigate!</button>
       <button onClick={() => {
-        navigate(`/?${createSearchParams({a: 1, b: 2})}`)
+        navigate(`/?${createSearchParams({a: '1', b: '2'})}`)
       }}>go to index has SearchParams!</button>
       <button onClick={() => {
         navigate('/', {
