@@ -1,11 +1,12 @@
 import { history, useNavigate, createSearchParams } from "umi";
 import React from "react";
+import styles from "../index.less"
 
 
 export default function () {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className={styles.main}>
       <h1>
         User Page
       </h1>

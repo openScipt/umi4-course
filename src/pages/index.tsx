@@ -1,7 +1,8 @@
 
 import { Link, useSearchParams, createSearchParams, useLocation } from "umi";
 import React from "react";
-import logoImg from "@/assets/logo.png"
+import logoImg from "@/assets/logo.png";
+import  './index.less'
 
 export default () => {
 
@@ -11,7 +12,7 @@ export default () => {
   const b = SearchParams.get('b')
 
   return (
-    <div>Hello Work
+    <div className="main">Hello Work
       <p><Link to="/user">Go to user page</Link></p>
       <img src={logoImg} alt="image" />
       <div>
