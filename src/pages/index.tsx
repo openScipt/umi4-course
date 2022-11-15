@@ -16,7 +16,7 @@ export default () => {
         <p>SearchParams ----- a:{a}; b:{b}</p>
         <p>State --- {JSON.stringify(location?.state)}</p>
         <button
-          onClick={() => {setSearchParams(createSearchParams({a: 123, b: 456}))}}
+          onClick={() => {setSearchParams(createSearchParams({a: '123', b: '456'}))}}
         >Change SearchParams</button>
       </div>
     </div>
